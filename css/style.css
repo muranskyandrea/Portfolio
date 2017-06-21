@@ -79,9 +79,13 @@ nav.navbar{
 }
 
 nav.navbar.shrink {
- height:20px;
- padding: 10px 0px;
+  opacity: 0.9;
+}
 
+.nav_container.shrink{
+  padding-top:10px;
+  padding-bottom:0px;
+  
 }
 
 header nav ul{
@@ -94,7 +98,7 @@ header nav ul li {
   font-size: 20px;
 }
 
-header nav ul li a {
+header a {
  color: grey;
  text-transform:uppercase;
 }
@@ -103,6 +107,8 @@ header nav ul li a {
   width: 100%;
   padding: 20px 50px;
   margin: 0 auto;
+     -webkit-transition: all 0.4s ease;
+   transition: all 0.4s ease;
 
 }
 .navbar-default{
@@ -158,12 +164,26 @@ ul{
 
 ul li{
   padding-left: 5px;
+  margin-bottom:10px;
 }
 
 /* Experience section */
 
 #experience_section{
   background: white;
+}
+
+.experience_box{
+  padding:10px 30px;
+}
+
+.experience_date{
+  font-style: italic;
+}
+
+.role{
+  padding-bottom:5px;
+  border-bottom: solid 1px #fd6b54;
 }
 
 /* Projects section */

@@ -4,14 +4,11 @@
     	<meta charset="utf-8">
     	<meta name="description" content="##########">
     	<title>AM | Front-End Web Developer</title>
-    	<link rel="stylesheet" href="css/reset.css">
     	<link rel="stylesheet" href="css/normalize.css">
     	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     	<link rel="stylesheet" href="css/style.css">
     	<link href="https://fonts.googleapis.com/css?family=Quicksand:400,700" rel="stylesheet">
     	<link href="https://fonts.googleapis.com/css?family=Syncopate:400,700" rel="stylesheet">
-
-    	<script src="https://use.fontawesome.com/147db4274e.js"></script>
 
     </head>
 
@@ -30,13 +27,13 @@
    			
    		<nav class="navbar navbar-default navbar-fixed-top">
    			<div class="nav_container">
-   			<h1 class="logo">AM</h1>
+   			<h1 class="logo"><a href="index.html">AM</a></h1>
    			
 				<ul class="headerNavList">
 					<li><a href="#experience_section">Experience</a></li>
 					<li><a href="#projects_section">Projects</a></li>
 					<!--<li><a href="#">Skills</a></li>-->
-					<li><a href="#">About</a></li>
+					<li><a href="#contact_section">About</a></li>
 					<li><a href="#contact_section">Contact</a></li> <!--MAYBE USE contact icons here also? Or instead?-->
 				</ul>
 			</div>
@@ -62,36 +59,37 @@
 			<h1 class="section_header">
 				Experience
 			</h1>
+			<div class="experience_header_container">
 			<div class="row">
-				<div class="col-md-9">
-					<h2 class="experience_box_title">Senior Analyst, Investor Relations</h2>
+				<div class="col-md-10">
+					<h2>Senior Analyst, Investor Relations</h2>
 					<h3>S&P Global Market Intelligence</h3>
 				</div>
-
-				<div class="col-md-3"></div>
+				<div class="col-md-2"><h2 class="experience_date">Present employment</h2></div>
 			</div>
+		</div>
 
 
 			<div class="row">
 
 
 				<div class="col-md-4 experience_box">
-				<h4>Project management:</h4>
+				<h4 class="role">Project management</h4>
 				
 						<ul class="experience_box_bullets">
-							<li>Manage Investor Relations website redesign and launch projects from inception to completion across cross-functional teams in agile framework. Over 50 completed projects.</li>
-							<li>Create wireframes, mockups, layouts, and IR site maps. Advise clients on IR best practices throughout life of project.</li>
+							<li>Manage Investor Relations website redesign and launch projects across cross-functional teams in agile framework.</li>
+							<li>Create wireframes, mockups, layouts, and site maps base on IR best practices.</li>
+							<li>Over 50 completed projects.</li>
 
 						</ul>
 				</div>
 
 
 				<div class="col-md-4 experience_box">
-				<h2 class="experience_box_title">
-				</h2>
-				<h4>Site upkeep:</h4>
+				<h4 class="role">Website maintence</h4>
 					<ul class="experience_box_bullets">
-							<li>Resolve client questions, requests for updates, and general support needs. Over 1,500 lifetime tickets closed with over 98% client satisfaction.</li>
+							<li>Resolve client questions, requests for updates, and general support needs.</li>
+							<li>Over 1,500 lifetime tickets closed with over 98% client satisfaction.</li>
 							<li>Create highly detailed procedures for IR site during sensitive site updates such as Earnings. Work with the client to ensure such updates are executed in a timely and accurate manner.</li>
 					</ul>
 				</div>
@@ -99,12 +97,11 @@
 					
 					
 				<div class="col-md-4 experience_box">
-					<h2 class="experience_box_title">
-					</h2>
-				<h4>Client training:</h4>
+				<h4 class="role">Client training</h4>
 					<ul class="experience_box_bullets">
-						<li>Prepare and execute external webinar to train clients on topics including IR Content Security.</li>
-						<li>Conduct live, virtual training sessions to promote new features, discuss IR best practices, and explore IR site traffic trends.</li>
+						<li>Prepare and execute external webinars to train clients on topics including IR Content Security.</li>
+						<li>Conduct live, virtual training sessions with clients to promote new features, discuss IR best practices, and explore IR site traffic trends.</li>
+						
 					</ul>
 				</div>
 
@@ -113,9 +110,11 @@
 			</div>
 
 
-			<a class="btn btn-default more_btn" href="#" role="button">Resume PDF</a>
 
 		</div>
+		<div class="container">
+		<hr>
+	</div>
 
 
 <div class="container">
@@ -124,20 +123,17 @@
 			</h1>
 			<div class="row">
 				
-				<div class="col-md-4">
+				<div class="col-md-6">
 					<h2 class="experience_box_title">Front-End Web Development</h2>
-					<h3>General Assemby</h3>
+					<h3 class="role">General Assembly</h3>
+					
 				</div>
 
-				<div class="col-md-4">
+				<div class="col-md-6">
 					<h2 class="experience_box_title">Bachelor of Arts in Management and Spanish</h2>
-					<h3>Lynchburg College</h3>
+					<h3 class="role">Lynchburg College</h3>
 				</div>
 
-				<div class="col-md-4">
-					<h2 class="experience_box_title">Semester Abroad</h2>
-					<h3>Universidad de Granada</h3>
-				</div>
 
 				
 
@@ -148,20 +144,23 @@
 			<div class="row">
 
 
-				<div class="col-md-4 experience_box">
+				<div class="col-md-6 experience_box">
 				
 				
 						<ul class="experience_box_bullets">
-					
+						
+						<li>HTML, CSS, JS</li>
+						<li>JQuery, Bootstrap, Github</li>
+						<li>Web accessibility including 508, TOATG, ADA</li>
 						</ul>
 				</div>
 
 
-				<div class="col-md-4 experience_box">
-				
+				<div class="col-md-6 experience_box">
 				
 						<ul class="experience_box_bullets">
 							<li>Summa Cum Laude and Highest Honors in both majors.</li>
+							<li>Semester abroad: Universidad de Granada, Spain</li>
 							<li>Spanish and Economics peer tutor.</li>
 							<li>Theses: Gender through the Generations: Changes in the Representation of Women in Spanish Advertising and
 Géneros tras las generaciones: Los cambios de los roles de género en la publicidad televisiva en España</li>
@@ -171,14 +170,14 @@ Géneros tras las generaciones: Los cambios de los roles de género en la public
 
 					
 					
-				<div class="col-md-4 experience_box">
+				<!--<div class="col-md-4 experience_box">
 					<h2 class="experience_box_title">
 					</h2>
 				
 					<ul class="experience_box_bullets">
 						
 					</ul>
-				</div>
+				</div>-->
 
 
 			
@@ -317,6 +316,9 @@ Géneros tras las generaciones: Los cambios de los roles de género en la public
 
 		</div>
 	</footer>
+
+	<!--Font Awesome-->
+    <script src="https://use.fontawesome.com/147db4274e.js"></script>
 	<!--Jquery-->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 	<!--Isotope JS-->
