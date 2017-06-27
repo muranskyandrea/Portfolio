@@ -28,7 +28,7 @@ body{
 
 .container{
   width: 100%;
-  padding: 50px 50px;
+  padding: 100px 50px;
   margin: 0 auto;
 }
 
@@ -40,17 +40,12 @@ body{
 
 a{
 	text-decoration: none;
-  transition: all 0.3s ease 0s
+  -webkit-animation: fadein 0.3s;
 }
 
-a:focus{
+a:focus, a:hover{
   text-decoration: none;
-}
-
-a:hover{
-  font-weight:bold;
-  text-decoration: none;
-  color: grey;
+  color: #333;
 }
 
 .hero{
@@ -89,6 +84,7 @@ h3{
     font-family:'syncopate', sans-serif;
     margin-top:20px;
     transition: all 0.3s ease 0s;
+    color:#777;
   }
 
 .btn-default:focus{
@@ -101,12 +97,16 @@ h3{
 .btn-default:hover{
   border: none;
   background: white;
-  color: #fd6b54;
+  color: #333;
   font-weight:normal;
 }
 
 .navbar{
   margin-bottom:0px;
+}
+
+.navbar ul li a:hover{
+  color:#333;
 }
 
 .navbar-toggle{
@@ -131,10 +131,6 @@ h3{
 border-color:#dcf3ed;
 }
 
-nav.navbar{
-   -webkit-transition: all 0.4s ease;
-   transition: all 0.4s ease;
-}
 
 nav.navbar.shrink {
   opacity: 0.9;
@@ -167,6 +163,10 @@ header a:focus{
  color: grey;
 }
 
+.header_container{
+    transition: padding-top 0.3s ease, padding-bottom 0.3s ease;
+}
+
 .nav_container{
   width: 100%;
   padding: 20px 50px;
@@ -181,13 +181,11 @@ header a:focus{
 
 .navbar-default .navbar-nav>li>a{
   padding-top: 20px;
-   -webkit-animation: fadein 3s;
 }
 
 .navbar-default .navbar-nav>li>a:hover{
-  color:gray;
-  transition-duration: .5s;
-    transition: .5s;
+  color:#333;
+
 }
 
 
@@ -342,7 +340,7 @@ h4 .role{
 .container_about{
   background:white;
   width:60%;
-  padding: 50px 50px;
+  padding: 100px 50px;
   float:right;
   border-bottom: solid 1px #dcf3ed;
 }
@@ -354,7 +352,7 @@ h4 .role{
 .container_contact{
   width:40%;
   float:left;
-  padding: 50px 50px;
+  padding: 100px 50px;
 }
 
 .container_nopad{
@@ -424,6 +422,7 @@ h4 .role{
     .header_container{
       padding-left:30px;
       padding-right:30px;
+
     }
 
     .container{
